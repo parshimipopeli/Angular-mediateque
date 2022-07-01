@@ -1,7 +1,5 @@
-<div *ngFor="let media of medias">
-  <div class="row">
-    <div class="col-4">
-      <app-product-card [media]="media"></app-product-card>
-    </div>
+<div class="row container-fluid mt-5 justify-content-center">
+  <div *ngFor="let media of medias" class="col-3">
+    <app-product-card [media]="media"></app-product-card>
   </div>
 </div>
